@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $usuario = 'root';
-$senha = 'nova_senha';
+$senha = 'senha';
 $database = 'login';
 
 
