@@ -1,0 +1,78 @@
+    *{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(172, 172, 172);
+    background-size: cover;
+    height: 92vh;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background: black;
+        height:8vh;                                          
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    a:hover{
+        opacity: 0.7;
+    }
+    .nav-list{
+        list-style: none;
+        display: flex;
+    }
+    .nav-list li {
+        letter-spacing: 3px;
+        margin-left: 32px;
+        
+    }
+    input{
+        padding:8px;
+        border: none;
+        border-radius: 05px;
+        width: 100%;
+        outline-style: none;
+    }
+    .cad{
+        background-color: rgba(0, 0, 0, 0.66);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 40px;
+        border-radius: 15px;
+        color: white;
+        font-size:15px;
+        
+    }
+    .btn{
+        margin: 7px;
+        padding: 8px;
+        border:none;
+        background-color: rgb(251, 255, 0);
+        width: 100%;
+        border-radius: 10px;
+        color: black;
+        font-size: 15px;
+       
+    }
+    .btn:hover{
+        background-color: rgb(157, 157, 157);
+    }
+    
+    
+    h1{
+         text-align: center;
+    }
+    li{
+    padding: 05px;
+    list-style: none;
+}
